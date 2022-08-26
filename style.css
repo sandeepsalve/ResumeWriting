@@ -1,0 +1,61 @@
+.container{
+    background-color: white;
+    position: fixed;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.item1{
+    background-color: rgb(169, 229, 243);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100%;
+    width: auto;
+}
+
+.item2{
+    background-color: beige;
+    grid-row-start: 2;  
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+}
+.item3{
+    background-color: beige;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: auto ;
+    width: auto;
+    
+}
+.info{
+    border: 0ex;
+    text-align: center;
+}
+ table, th, td{
+    border: 1px solid black;
+    width: 60%;
+    text-align: center;
+    padding: 1px solid black;
+
+ }
+/*.item4{
+    background-color: rgb(233, 14, 14);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: auto ;
+    width: auto;
+}*/
+.Experience{
+    padding: 1px;
+    text-align: center;
+}
